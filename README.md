@@ -2,6 +2,8 @@
 
 This is a fork of [the datafusion benchmarks directory](https://github.com/apache/arrow-datafusion/tree/main/benchmarks)
 
+Step One : You must first generate out a copy of the data folder
+
 To run the tpch commands enter the following command...
 
 ```rust
