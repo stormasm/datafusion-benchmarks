@@ -10,4 +10,10 @@ To run the tpch commands enter the following command in the benchmarks folder...
 ./bench.sh run tpch
 ```
 
-[PR 6262](https://github.com/apache/arrow-datafusion/commit/37b2c53f281b9550034e7e69f5acf1ae666a0da7)
+```rust
+cargo run --bin tpch benchmark datafusion --path "/Users/ma/j/tmp09/datafusion-benchmarks/benchmarks/data"
+```
+
+```rust
+cargo run --bin tpch benchmark datafusion --path "/Users/ma/j/tmp09/datafusion-benchmarks/benchmarks/data" --query 4
+```
