@@ -8,6 +8,9 @@ To run the tpch commands enter the following command in the benchmarks folder...
 
 ```rust
 ./bench.sh run tpch
+./bench.sh run tpch_mem
+./bench.sh run sort
+./bench.sh run parquet
 ```
 
 ```rust
