@@ -20,3 +20,5 @@ cargo run --bin tpch benchmark datafusion --path "/Users/ma/j/tmp09/datafusion-b
 ```rust
 cargo run --bin tpch benchmark datafusion --path "/Users/ma/j/tmp09/datafusion-benchmarks/benchmarks/data" --query 4
 ```
+
+v24
